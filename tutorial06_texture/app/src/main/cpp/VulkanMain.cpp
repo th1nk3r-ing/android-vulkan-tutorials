@@ -805,11 +805,10 @@ VkResult CreateGraphicsPipeline(void) {
       .minDepth = 0.0f,
       .maxDepth = 1.0f,
   };
-
   VkRect2D scissor = {
           .offset = {.x = 0, .y = 0,},
           .extent = swapchain.displaySize_,
-   };
+  };
   // Specify viewport info
   VkPipelineViewportStateCreateInfo viewportInfo{
       .sType = VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO,

@@ -2,7 +2,8 @@
         "C_Cpp.intelliSenseEngine": "disabled", // 与 clangd 冲突, 暂且关闭
         "clangd.arguments": [   // see clangd --help, ref : (为vscode配置clangd)[https://juejin.cn/post/7126880493668139021]
         // compelie_commands.json 文件的目录位置(相对于工作区，由于 CMake 生成的该文件默认在 build 文件夹中，故设置为 build)
-        "--compile-commands-dir=./tutorial05_triangle/app/.cxx/cmake/debug/arm64-v8a/",
+        // "--compile-commands-dir=./tutorial05_triangle/app/.cxx/cmake/debug/arm64-v8a/",
+        "--compile-commands-dir=./tutorial06_texture/app/.cxx/Debug/3b5tl5u3/arm64-v8a/",
         // 让 Clangd 生成更详细的日志
         "--log=info",
         // 输出的 JSON 文件更美观
